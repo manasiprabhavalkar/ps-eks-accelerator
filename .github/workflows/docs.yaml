@@ -28,7 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           emptyCommits: false
-        env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.PERSONAL_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./ps-eks-accelerator/public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out  # default: public
