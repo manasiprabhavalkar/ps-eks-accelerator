@@ -8,7 +8,7 @@ chapters:
       order: "3"
     - name: Networking Architecture
       order: "7"
-  - Obversibility:
+  - Observability:
     - name: Monitoring
       order: "4"
     - name:  Logging
