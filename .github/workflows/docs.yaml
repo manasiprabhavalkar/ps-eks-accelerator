@@ -2,15 +2,11 @@ name: Publish EKS Accelerator
 
 on:
   push:
-    branches:
-      - master
-    paths:
-      - 'ps-eks-accelerator/**'
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v1
       - name: Checkout
