@@ -25,10 +25,10 @@ jobs:
       - name: add nojekyll
         run: touch ./ps-eks-accelerator/public/.nojekyll
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2.4.0
+        uses: peaceiris/actions-gh-pages@v3
         with:
           emptyCommits: false
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          ACTIONS_DEPLOY_KEY: ${{ secrets.PERSONAL_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./ps-eks-accelerator/public
