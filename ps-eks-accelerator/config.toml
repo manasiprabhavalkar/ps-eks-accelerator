@@ -1,0 +1,43 @@
+baseurl = "https://jonahjon.github.io/ps-eks-accelerator"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "ps-eks-accelerator"
+sectionPagesMenu = "main"
+name = "EKS Accelerator"
+license = "MIT"
+licenselink = "https://github.com/matcornic/hugo-theme-learn/blob/master/LICENSE.md"
+tags = ["documentation", "grav", "learn", "doc", "search"]
+features = ["documentation", "menu", "nested sections", "search", "mermaid"]
+min_version = 0.25
+theme = "learn"
+uglyurls = false
+pygmentsCodeFences = false
+pygmentsCodeFencesGuessSyntax = false
+pygmentsStyle = "monokai"
+RelativeURLs=true
+CanonifyURLs=true
+
+[params]
+author = "Jonah Jones"
+description = "Amazon EKS Workshop"
+themeVariant = "mine"
+showVisitedLinks = false
+disableSearch = false
+disableAssetsBusting = false
+disableLanguageSwitchingButton = true
+disableShortcutsTitle=true
+disableInlineCopyToClipBoard = true
+
+[blackfriday]
+hrefTargetBlank = true
+
+[[menu.shortcuts]] 
+  name = "<i class='fab fa-github'></i> Github repo"
+  identifier = "ds"
+  url = "https://github.com/jonahjon/ps-eks-accelerator"
+  weight = 10
+
+# For search functionality
+[outputs]
+page = [ "HTML" ]
+home = [ "HTML", "RSS", "JSON"]

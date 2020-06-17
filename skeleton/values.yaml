@@ -1,0 +1,31 @@
+chapters:
+  - Cluster Ops:
+    - name: Building Clusters
+      order: "1"
+    - name: EKS Cluster Provisioning
+      order: "2"
+    - name: Multi-tenancy design
+      order: "3"
+    - name: Networking Architecture
+      order: "7"
+  - Obversibility:
+    - name: Monitoring
+      order: "4"
+    - name:  Logging
+      order: "5"
+  - Storage:
+    - name: Stateful Storage Architecture
+      order: "6"
+  - CICD:
+    - name: Pipelines
+      order: "7"
+  - Security:
+    - name: Identity and Access Management
+      order: "8"
+    - name: Encryption and Secrets Management
+      order: "9"
+    - name: Network Security
+      order: "10"
+    - name: Container Runtime Security
+      order: "11"
+
