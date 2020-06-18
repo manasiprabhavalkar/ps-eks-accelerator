@@ -27,6 +27,10 @@ disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle=true
 disableInlineCopyToClipBoard = true
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "tango"
 
 [blackfriday]
 hrefTargetBlank = true
