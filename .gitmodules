@@ -1,6 +1,3 @@
-[submodule "ps-eks-accelerator/themes/hugo-theme-learn"]
-	path = ps-eks-accelerator/themes/hugo-theme-learn
-	url = https://github.com/matcornic/hugo-theme-learn
-[submodule "ps-eks-accelerator/themes/learn"]
-	path = ps-eks-accelerator/themes/learn
-	url = https://github.com/jonahjon/hugo-theme-learn
+[submodule "robot-shop"]
+	path = robot-shop
+	url = https://github.com/jonahjon/robot-shop.git
