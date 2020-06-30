@@ -1,12 +1,22 @@
----
-title: "Eksctl"
-date: 2018-08-07T13:31:55-07:00
-weight: 10
----
++++
+title = "Eksctl"
+date = 2020-06-16T19:01:12-04:00
+weight = 15
+chapter = true
+pre = "<b></b>"
++++
+
+# Eksctl
+
+Chapter about Building Clusters Examples
 
 The first method to launch an EKS cluster is using [eksctl](https://eksctl.io/) the tool built by weaveworks.
 
+### Installation
+
 #### For linux: 
+
+{{%expand "Expand to see Linux Eksctl install Instructions" %}}
 
 Download the eksctl binary:
 
@@ -14,40 +24,53 @@ Download the eksctl binary:
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 
 sudo mv -v /tmp/eksctl /usr/local/bin
+
+eksctl version
 ```
+{{% /expand %}}
+
 #### For MacOSx 
+
+{{%expand "Expand to see Mac OSX Eksctl install Instructions" %}}
 
 Install via Homebrew
 
 
 ```bash
 brew install eksctl
+
+eksctl version
 ```
 
+{{% /expand %}}
+
+
 #### For Windows 
+
+{{%expand "Expand to see Windows Eksctl install Instructions" %}}
 
 Install via Chocolatey
 
 
 ```bash
 chocolatey install -y eksctl 
-```
 
-Confirm the eksctl command works:
-
-```bash
 eksctl version
 ```
+{{% /expand %}}
 
-Enable eksctl bash-completion
+#### Bash Completion
+
+{{%expand "Expand to enable Bash-completion Instructions" %}}
 
 ```bash
 eksctl completion bash >> ~/.bash_completion
 . /etc/profile.d/bash_completion.sh
 . ~/.bash_completion
 ```
+{{% /expand %}}
 
-#### Eksctl Under the hood
+### Eksctl Information
 
 eksctl is a command line tool which builds, launches, and controls Amazon EKS clusters for you. It uses Cloudformation, and the Kubernetes API under the hood to manage the lifecycle of events.
 
