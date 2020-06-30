@@ -7,6 +7,7 @@ skeleton:
 clean:
 	rm -rf ps-eks-accelerator/content/*
 
+#http://localhost:1313/ps-eks-accelerator/
 run-docs: ## Run in development mode
 	cd ps-eks-accelerator && hugo serve -D
 
