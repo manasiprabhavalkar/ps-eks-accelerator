@@ -12,9 +12,13 @@ E.g. On macOS
 brew install hugo
 ```
 
-### To build/run
+### To build/run locally
 
 ```sh
+git clone --recursive ssh://git.amazon.com/pkg/EksAcceleratorOffering
+
+cd EksAcceleratorOffering
+ 
 make dev
 ```
 
