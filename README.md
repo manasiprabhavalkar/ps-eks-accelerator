@@ -1,7 +1,8 @@
 # Adding in readme
 
 
-Run 
+To build/run
+
 ```
 make dev
 ```
