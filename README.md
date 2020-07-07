@@ -1,7 +1,13 @@
 # Adding in readme
 
 
-To build/run
+To  clean out old public
+
+```
+make clean
+```
+
+To build/run:
 
 ```
 make dev
