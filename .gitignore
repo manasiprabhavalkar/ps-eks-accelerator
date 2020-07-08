@@ -1,3 +1,4 @@
 __pycache__
 ps-eks-accelerator/public/
 .DS_Store
+robot-shop/K8s/terraform/.terraform/

@@ -87,4 +87,3 @@ aws-iam-authenticator help
 ```
 {{% /expand %}}
 
-### Kubernetess Tools Installation

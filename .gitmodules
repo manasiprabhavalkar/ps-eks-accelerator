@@ -1,3 +1,4 @@
 [submodule "robot-shop"]
 	path = robot-shop
 	url = https://github.com/jonahjon/robot-shop.git
+	branch = master

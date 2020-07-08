@@ -45,3 +45,10 @@ deploy:
 
 delete:
 	kubectl delete -f robot-shop/K8s/kubectl/templates/
+
+#############
+# Terraform #
+#############
+
+terraform-up:
+	cd robot-shop/K8s/terraform && terraform init && terraform plan
