@@ -1,4 +1,4 @@
-NAME = EKS-Accelerator
+NAME = Aqua
 
 
 ########
@@ -12,14 +12,16 @@ skeleton:
 # Clean out prob build
 clean:
 	rm -rf ps-eks-accelerator/public/*
+	rm -rf aqua/public/*
 
-#http://localhost:1313/ps-eks-accelerator/
+#http://localhost:1313/aqua/
 dev: build ## Run in development mode
-	cd ps-eks-accelerator && hugo serve -D
+	cd aqua && hugo serve -D
 
 # Used to make the .js and html before serving
 build: ## Build the site
-	cd ps-eks-accelerator && hugo -t learn -d public --gc --minify --cleanDestinationDir
+#	cd ps-eks-accelerator && hugo -t learn -d public --gc --minify --cleanDestinationDir
+	cd aqua && hugo -t learn -d public --gc --minify --cleanDestinationDir
 
 #########
 # Build #
